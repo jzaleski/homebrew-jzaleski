@@ -4,8 +4,6 @@ class Apg < Formula
   url "http://files.jzaleski.com/apg-2.2.3-osx.tar.gz"
   sha256 "3b0ece67d504bdf73736dea430223ce82aac813293cc91f905843b750b8a0fdd"
 
-  bottle :unneeded
-
   def install
     system "make", "standalone", "CC=#{ENV.cc}", "FLAGS=#{ENV.cflags}"
     bin.install "apg", "apgbfm"
