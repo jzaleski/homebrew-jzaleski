@@ -1,7 +1,7 @@
 class Apg < Formula
   desc "Automatic Password Generator"
   homepage "https://linux.die.net/man/1/apg"
-  url "http://files.jzaleski.com/apg-2.2.3-osx.tar.gz"
+  url "https://storage.googleapis.com/jzaleski-files/apg-2.2.3-osx.tar.gz"
   sha256 "3b0ece67d504bdf73736dea430223ce82aac813293cc91f905843b750b8a0fdd"
 
   def install
