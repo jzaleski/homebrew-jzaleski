@@ -1,7 +1,7 @@
 class RedisAT72 < Formula
   desc "Persistent key-value database, with built-in net interface"
   homepage "https://redis.io/"
-  url "https://storage.googleapis.com/jzaleski-files/redis-7.2.9.tar.gz"
+  url "https://download.redis.io/releases/redis-7.2.9.tar.gz"
   sha256 "2343cc49db3beb9d2925a44e13032805a608821a58f25bd874c84881115a20b7"
   license all_of: [
     "BSD-3-Clause",
